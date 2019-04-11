@@ -320,7 +320,7 @@ export interface QueryOptionsTransactionRequired {}
  * import sequelize:
  *
  * ```js
- * const Sequelize = require('sequelize');
+ * const Sequelize = require('jonmagic-sequelize');
  * ```
  *
  * In addition to sequelize, the connection library for the dialect you want to use
@@ -1245,7 +1245,7 @@ export class Sequelize extends Hooks {
    * ```js
    * const cls = require('continuation-local-storage'),
    *   ns = cls.createNamespace('....');
-   * const Sequelize = require('sequelize');
+   * const Sequelize = require('jonmagic-sequelize');
    * Sequelize.cls = ns;
    * ```
    * Note, that CLS is enabled for all sequelize instances, and all instances will share the same namespace

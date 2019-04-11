@@ -26,7 +26,7 @@ $ npm install --save tedious # Microsoft SQL Server
 To connect to the database, you must create a Sequelize instance. This can be done by passing the connection parameters separately to the Sequelize constructor or by passing a single connection URI directly:
 
 ```js
-const Sequelize = require('sequelize');
+const Sequelize = require('jonmagic-sequelize');
 
 // Option 1: Passing parameters separately
 const sequelize = new Sequelize('database', 'username', 'password', {

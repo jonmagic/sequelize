@@ -174,7 +174,7 @@ To extend Sequelize datatypes, do it before any instance is created. This exampl
 ```js
 // myproject/lib/sequelize.js
 
-const Sequelize = require('Sequelize');
+const Sequelize = require('jonmagic-sequelize');
 const sequelizeConfig = require('../config/sequelize')
 const sequelizeAdditions = require('./sequelize-additions')
 

@@ -64,7 +64,7 @@ const cls = require('continuation-local-storage'),
 To enable CLS you must tell sequelize which namespace to use by using a static method of the sequelize constructor:
 
 ```js
-const Sequelize = require('sequelize');
+const Sequelize = require('jonmagic-sequelize');
 Sequelize.useCLS(namespace);
 
 new Sequelize(....);
