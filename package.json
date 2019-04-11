@@ -1,9 +1,10 @@
 {
-  "name": "sequelize",
+  "name": "jonmagic-sequelize",
   "description": "Multi dialect ORM for Node.JS",
-  "version": "0.0.0-development",
+  "version": "5.3.1-jonmagic",
   "author": "Sascha Depold <sascha@depold.com>",
   "contributors": [
+    "Jonathan Hoyt <jonmagic@gmail.com>",
     "Sascha Depold <sascha@depold.com>",
     "Jan Aagaard Meier <janzeh@gmail.com>",
     "Daniel Durante <me@danieldurante.com>",
@@ -12,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/sequelize/sequelize.git"
+    "url": "https://github.com/jonmagic/sequelize.git"
   },
   "bugs": {
     "url": "https://github.com/sequelize/sequelize/issues"
